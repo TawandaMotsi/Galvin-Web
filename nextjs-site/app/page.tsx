@@ -7,7 +7,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
         <img 
-          src="https://images.squarespace-cdn.com/content/v1/5aae685be2ccd1747b5a523b/fc5d638d-1c04-44b8-94c8-95d85d971a38/IMG-20230601-WA0015.jpg?format=2500w"
+          src="/hero/hero-main.jpg"
           alt="John Galvin Fine Art Gallery"
           className="absolute inset-0 w-full h-full object-cover"
         />
@@ -41,37 +41,37 @@ export default function Home() {
             { 
               title: "Farmleigh House Conservatory", 
               category: "Original",
-              image: "https://images.squarespace-cdn.com/content/v1/5aae685be2ccd1747b5a523b/71ee85e4-43b2-43b2-a0bd-af4d7160e666/912f9ee2-d338-477b-88ac-85920821a6e5.jpg?format=500w",
+              image: "/gallery/farmleigh.jpg",
               link: "/original-art-for-sale/farmleigh-house"
             },
             { 
               title: "Make Hay When the Sun Shines", 
               category: "Original",
-              image: "https://images.squarespace-cdn.com/content/v1/5aae685be2ccd1747b5a523b/1704753711352-T0K1EUANKSLMWP5VK361/4e7c488c-928e-4322-81de-252f90c94d21.jpg?format=500w",
+              image: "/gallery/make-hay.jpg",
               link: "/original-art-for-sale/make-hay-while-sun-shines"
             },
             { 
               title: "Blue Elegance", 
               category: "Original",
-              image: "https://images.squarespace-cdn.com/content/v1/5aae685be2ccd1747b5a523b/ac68cf3f-e2fe-4dad-99bf-2f4cbfc482e1/4e7c488c-928e-4322-81de-252f90c94d21.jpg?format=500w",
+              image: "/gallery/blue-elegance.jpg",
               link: "/original-art-for-sale/blue-elegance"
             },
             { 
               title: "Sunrise Skerries", 
               category: "Original",
-              image: "https://images.squarespace-cdn.com/content/v1/5aae685be2ccd1747b5a523b/71ee85e4-43b2-43b2-a0bd-af4d7160e666/912f9ee2-d338-477b-88ac-85920821a6e5.jpg?format=500w",
+              image: "/gallery/farmleigh.jpg",
               link: "/original-art"
             },
             { 
               title: "Better Together", 
               category: "Original",
-              image: "https://images.squarespace-cdn.com/content/v1/5aae685be2ccd1747b5a523b/1704753711352-T0K1EUANKSLMWP5VK361/4e7c488c-928e-4322-81de-252f90c94d21.jpg?format=500w",
+              image: "/gallery/make-hay.jpg",
               link: "/original-art"
             },
             { 
               title: "Nature's Way", 
               category: "Print",
-              image: "https://images.squarespace-cdn.com/content/v1/5aae685be2ccd1747b5a523b/ac68cf3f-e2fe-4dad-99bf-2f4cbfc482e1/4e7c488c-928e-4322-81de-252f90c94d21.jpg?format=500w",
+              image: "/gallery/blue-elegance.jpg",
               link: "/prints"
             },
           ].map((work, i) => (
@@ -97,7 +97,7 @@ export default function Home() {
           <div className="flex flex-col md:flex-row gap-8 md:gap-12 items-center">
             <div className="w-full md:w-1/2">
               <img 
-                src="https://images.squarespace-cdn.com/content/v1/5aae685be2ccd1747b5a523b/1522524354028-KSUMDKS8UCBDQM1TJB6N/johnggalvin.jpg?format=1500w" 
+                src="/about/john-portrait.jpg" 
                 alt="John Galvin"
                 className="w-full rounded-lg shadow-lg"
               />

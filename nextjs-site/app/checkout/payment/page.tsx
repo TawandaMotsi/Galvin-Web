@@ -35,13 +35,9 @@ export default function PaymentMethodPage() {
       });
 
       const { sessionId } = await response.json();
-      const stripe = await stripePromise;
       
-      if (stripe) {
-        const { error } = await stripe.redirectToCheckout({ sessionId });
-        if (error) {
-          alert('Payment failed. Please try again.');
-        }
+      if (sessionId) {
+        window.location.href = `/checkout/success?session_id=${sessionId}`;
       }
     } catch (error) {
       alert('An error occurred. Please try again.');

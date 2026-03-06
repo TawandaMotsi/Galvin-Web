@@ -7,7 +7,7 @@ export default function AboutPage() {
         <div className="flex flex-col md:flex-row gap-8 md:gap-12 items-center mb-16">
           <div className="w-full md:w-1/2">
             <img 
-              src="https://images.squarespace-cdn.com/content/v1/5aae685be2ccd1747b5a523b/1522524354028-KSUMDKS8UCBDQM1TJB6N/johnggalvin.jpg?format=1500w" 
+              src="/about/john-portrait.jpg" 
               alt="John Galvin"
               className="w-full rounded-lg shadow-lg"
             />
@@ -27,17 +27,17 @@ export default function AboutPage() {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <img 
-            src="https://images.squarespace-cdn.com/content/v1/5aae685be2ccd1747b5a523b/a9fc17c5-db5b-4e91-8702-1d8043afe115/d8b526cc-2019-4081-8163-fd9ea8086080.jpg?format=1500w"
+            src="/about/studio1.jpg"
             alt="John Galvin Artwork"
             className="w-full h-80 object-cover rounded-lg shadow-lg hover:scale-105 transition-transform duration-300"
           />
           <img 
-            src="https://images.squarespace-cdn.com/content/v1/5aae685be2ccd1747b5a523b/4aea4a56-9278-4642-b3ae-dc98cb2861d4/7103dc0b-b4ad-4bbb-a9b9-4cebced83a8c.jpeg?format=1500w"
+            src="/about/studio2.jpg"
             alt="John Galvin Artwork"
             className="w-full h-80 object-cover rounded-lg shadow-lg hover:scale-105 transition-transform duration-300"
           />
           <img 
-            src="https://images.squarespace-cdn.com/content/v1/5aae685be2ccd1747b5a523b/cc3c0505-883c-4182-9119-596bfe6b5652/d79363b8-e271-4ab1-916b-0f6e7b6d3af4.jpeg?format=1500w"
+            src="/about/studio3.jpg"
             alt="John Galvin Artwork"
             className="w-full h-80 object-cover rounded-lg shadow-lg hover:scale-105 transition-transform duration-300"
           />

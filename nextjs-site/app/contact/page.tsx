@@ -29,22 +29,22 @@ export default function ContactPage() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           <div className="grid grid-cols-2 gap-4">
             <img 
-              src="https://images.squarespace-cdn.com/content/v1/5aae685be2ccd1747b5a523b/8089b132-79b6-45db-b950-ba0fb56650e2/IMG-20230601-WA0010.jpg?format=1500w"
+              src="/contact/gallery1.jpg"
               alt="Gallery Interior"
               className="w-full h-64 object-cover rounded-lg shadow-lg hover:scale-105 transition-transform duration-300"
             />
             <img 
-              src="https://images.squarespace-cdn.com/content/v1/5aae685be2ccd1747b5a523b/44d61431-b13c-4fbd-9430-7a1da5ce5912/IMG-20230601-WA0009.jpg?format=1500w"
+              src="/contact/gallery2.jpg"
               alt="Gallery Interior"
               className="w-full h-64 object-cover rounded-lg shadow-lg hover:scale-105 transition-transform duration-300"
             />
             <img 
-              src="https://images.squarespace-cdn.com/content/v1/5aae685be2ccd1747b5a523b/f2649937-8ee8-48ea-bdbc-1f1dd50c7f8f/IMG-20230601-WA0011.jpg?format=1500w"
+              src="/contact/gallery3.jpg"
               alt="Gallery Interior"
               className="w-full h-64 object-cover rounded-lg shadow-lg hover:scale-105 transition-transform duration-300"
             />
             <img 
-              src="https://images.squarespace-cdn.com/content/v1/5aae685be2ccd1747b5a523b/919dae19-7b17-4abd-863a-26d60c6d5660/IMG-20230601-WA0015.jpg?format=1500w"
+              src="/contact/gallery4.jpg"
               alt="Gallery Interior"
               className="w-full h-64 object-cover rounded-lg shadow-lg hover:scale-105 transition-transform duration-300"
             />

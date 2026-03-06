@@ -1,0 +1,47 @@
+@keyframes fadeSlide {
+  0% {
+    opacity: 0;
+    transform: scale(0.95) translateX(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateX(0);
+  }
+}
+
+.zoom-image {
+  animation: fadeSlide 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.carousel-container {
+  scroll-behavior: auto;
+  padding-left: 50vw;
+  padding-right: 50vw;
+}
+
+.zoom-section {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 40;
+  pointer-events: none;
+}
+
+.zoom-card {
+  width: 40rem;
+  aspect-ratio: 1 / 1;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0 0 0 1px rgba(0,0,0,0.1), 0 0 40px rgba(0,0,0,0.15), 0 25px 50px -12px rgba(0,0,0,0.5);
+  position: relative;
+}
+
+.sold-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
